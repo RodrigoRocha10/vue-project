@@ -1,29 +1,26 @@
-# vue-project
+# Vue Jobs
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue Jobs é um projeto de aplicação web para gerenciar listagens de trabalhos. Com esta aplicação, você pode adicionar, editar, remover e visualizar trabalhos disponíveis. O projeto é desenvolvido com Vue.js e oferece suporte para dados provenientes de uma API ou de um arquivo JSON local.
 
-## Recommended IDE Setup
+## Funcionalidades
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Adicionar Trabalhos:** Permite criar novas listagens de trabalho com informações detalhadas.
+- **Editar Trabalhos:** Atualize informações de trabalhos existentes.
+- **Remover Trabalhos:** Exclua listagens de trabalho.
+- **Visualizar Trabalhos:** Mostre a listagem de todos os trabalhos disponíveis.
+- **Dados de API e JSON:** Suporte para recebimento de dados de uma API ou diretamente de um arquivo JSON.
 
-## Customize configuration
+## Imagens
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Página Inicial
 
-## Project Setup
+![Página Inicial](./public/home_screen.PNG)
 
-```sh
-npm install
-```
+### Adicionar Trabalho
 
-### Compile and Hot-Reload for Development
+![Adicionar Trabalho](./public/add_screen.PNG)
 
-```sh
-npm run dev
-```
+### Visualizar Trabalho
 
-### Compile and Minify for Production
+![Visualizar Trabalho](./public/jobs_screen.PNG)
 
-```sh
-npm run build
-```
